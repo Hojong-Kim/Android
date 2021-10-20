@@ -23,9 +23,9 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, tv.getText(), Toast.LENGTH_SHORT).show();
          */
 
-        // 누를 때 마다 1씩 증가하게끔
+        // 누를 때마다 1씩 증가하게끔
 
-        if(v instanceof TextView){ //v에 담겨있는 객체주소값을 TextView 타입으로 저장할 수 있으면 true 없으면 false
+        if(v instanceof TextView){ // v에 담겨 있는 객체 주소값을 TextView 타입으로 저장할 수 있으면 true, 없으면 false
             TextView tv = (TextView)v;
             String val = (String)tv.getText();
             int intVal = Integer.parseInt(val);

@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.First">
         <activity
+            android:name=".ch10.DailyBoxofficeActivity"
+            android:exported="false" />
+        <activity
             android:name=".picsum.PicsumActivity"
             android:exported="false" />
         <activity
@@ -35,13 +38,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".LinearActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true" />
+        <activity
+            android:name=".ConstraintActivity"
+            android:exported="true"/>
+
     </application>
 
 </manifest>
